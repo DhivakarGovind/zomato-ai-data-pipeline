@@ -4,7 +4,13 @@ An end-to-end **Data Engineering, Analytics, and Generative AI project** that pr
 
 The pipeline ingests raw operational data, transforms it into analytics-ready fact and dimension models, enriches customer reviews using AI, and provides natural-language interfaces for querying both structured business data and unstructured customer feedback.
 
+## Architecture
+
+![Zomato AI Data Pipeline Architecture](docs/architecture.png)
+
 ---
+
+
 
 ## Project Overview
 
