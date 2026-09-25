@@ -1,0 +1,43 @@
+# Environment / secrets
+.env
+*.env
+creds.txt
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+logs/
+*.log
+airflow/logs/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.cfg
+
+# dbt generated files
+zomato/target/
+zomato/logs/
+zomato/dbt_packages/
+
+# Temporary files
+*.tmp
+
+ai/review_embeddings.parquet
+.user.yml
+profiles.yml
+
+# Large raw datasets
+data/*.csv
